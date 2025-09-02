@@ -1,4 +1,4 @@
- @media (max-width: 768px) {
+        @media (max-width: 768px) {
             h1 {
                 font-size: 24px;
             }
@@ -16,18 +16,22 @@
                 width: 100%;
                 background-color: var(--cor-principal);
                 padding: 1rem 0;
-                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             }
+
             .nav-links.active {
                 display: flex;
             }
+
             .nav-links a {
                 padding: 1rem;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             }
+
             .menu-toggle {
                 display: flex;
             }
+
             header {
                 padding: 0 1rem;
             }
@@ -37,12 +41,12 @@
                 gap: 0.5rem;
                 text-align: center;
             }
-            
+
             .section-content {
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .content-text {
                 text-align: center;
             }
